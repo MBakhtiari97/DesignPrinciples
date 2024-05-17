@@ -1,0 +1,22 @@
+SOLID:
+S => Single Responsibility Principle => A class should have one, and only one, reason to change 
+O => Open Closed Principle => Modify behavior by extending, not modifying code
+L => Liskov Substitution Principle => Subtypes must be substitutable for their base
+I => Interface Segregation Principle => Clients should not depend on interfaces they don't use
+D => Dependency Inversion Principle => Depend on abstractions, not concrete implementations
+
+
+Coupling:
+ADP => Acyclic Dependencies Principle => Avoid cyclic dependencies between software components 
+SDP => Stable Dependencies Principle => Depend on stable components, not volatile ones
+SAP => Stable Abstraction Principle => Strive for stable and abstract software designs
+
+
+Other Principles:
+SCP => Speaking Code Principle => Writing code that speaks for itself and that does not need a comment 
+KISS => Keep It Simple, Stupid => Simplify to reduce complexity and increase clarity
+DRY => Don't Repeat Yourself => Avoid redundant code for better maintainability
+YAGNI => You Ain't Gonna Need It! => Avoid adding unnecessary features or functionality
+SOC => Separation Of Concerns => Separate different responsibilities for better organization
+PoLA => Principle Of Least Astonishment => High surprise? Consider redesigning for clarity
+LoD => Law Of Demeter => Only talk to your immediate friends
